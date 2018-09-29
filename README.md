@@ -1,2 +1,2 @@
-# th_fewd_project1
-Treehouse FEWD - Project 1
+# Treehouse FWED - Project 1
+My Personal Profile Page
