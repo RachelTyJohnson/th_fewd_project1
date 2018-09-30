@@ -92,6 +92,11 @@ header .profile-image:hover {
   height: auto;
 }
 
+hr {
+  border: 1px dashed #145A32;
+  margin: 40px auto;
+}
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -130,8 +135,24 @@ header .profile-image:hover {
   text-align: center;
 }
 
+.hobbieslist {
+  padding-left: 10px;
+}
+
+.hobbieslist li {
+  list-style: none;
+}
+
+.hobbieslist li::before {
+  content: "//  ";
+  margin-right: 10px;
+  color: #0B5345;
+}
+
 .card img {
-  width: 100%;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
 .darken {
@@ -159,6 +180,10 @@ ul.skills {
   padding: 5px 10px;
   margin: 2px;
   font-weight: bold;
+}
+
+.skills li:hover {
+  transform: scale(1.05);
 }
 
 .skills li:nth-child(odd) {
