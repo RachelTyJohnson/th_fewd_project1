@@ -10,6 +10,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #222;
   background: #f7f5f0;
+  background-image: url('images/leaves.png');
 }
 
 /* Link Styles */
